@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment — NEVER commit real secrets or API keys
+.env
+.env.local
+.env.*.local
+# Local secrets file (Turso token, API keys, JWT secret)
+.env.vars
+.env.vars.*
+!.env.vars.example
+
+# SQLite database files
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Vercel
+.vercel
+
+# Freebuff local runtime state (machine-specific)
+.freebuff/sponsored-runtime/
