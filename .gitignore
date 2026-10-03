@@ -37,3 +37,6 @@ Thumbs.db
 
 # Freebuff local runtime state (machine-specific)
 .freebuff/sponsored-runtime/
+
+.vercel
+.env*
